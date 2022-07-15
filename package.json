@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@telekom/scale-components": "^3.0.0-beta.107",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.0",
+    "@telekom/scale-components": "^3.0.0-beta.108",
     "@telekom/scale-components-react": "^3.0.0-beta.56",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
-    "cypress": "^9.6.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-prettier": "^4.0.0",
@@ -60,5 +63,8 @@
     "bracketSpacing": false,
     "singleQuote": true,
     "trailingComma": "all"
+  },
+  "devDependencies": {
+    "cypress": "^10.3.0"
   }
 }

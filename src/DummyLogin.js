@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import {ScaleButton, ScaleTextField} from '@telekom/scale-components-react';
+import {ScaleTextField} from '@telekom/scale-components-react';
 import {Form} from 'react-bootstrap';
+import {TextField} from '@mui/material';
 
 const DummyLogin = () => {
   const [username, setUsername] = useState('');
@@ -16,10 +17,10 @@ const DummyLogin = () => {
         Dummy
         <ScaleTextField
           type="text"
-          data-testid="dummyfield"
+          id="dummyfield"
           placeholder="Enter Username"
           value={username}
-          onScaleChange={updateUsername}
+          onChange={updateUsername}
         />
       </div>
       <div>{username}</div>
